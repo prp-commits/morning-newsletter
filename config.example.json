@@ -1,0 +1,28 @@
+{
+  "email": {
+    "to": "you@example.com",
+    "from": "sender@example.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587
+  },
+  "schedule": {
+    "monday": "leadership",
+    "tuesday": "economics",
+    "wednesday": "mental_models",
+    "thursday": "philosophy",
+    "friday": "parenting",
+    "saturday": "favorite",
+    "sunday": null
+  },
+  "ideas_per_email": 3,
+  "favorite_cycle": ["leadership", "economics", "mental_models", "philosophy"],
+  "idea_bank_dir": "idea_bank",
+  "sent_log": "sent_log.json",
+  "register": {
+    "leadership": "actionable",
+    "economics": "conceptual",
+    "mental_models": "conceptual",
+    "philosophy": "conceptual",
+    "parenting": "actionable"
+  }
+}

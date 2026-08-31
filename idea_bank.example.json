@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.3",
+  "book": {
+    "id": "example-book-author-2024",
+    "title": "An Example Book",
+    "subtitle": "How the Schema Works",
+    "authors": ["A. Nother Author"],
+    "year": 2024,
+    "themes": ["mental_models", "leadership"],
+    "source_filename": "an-example-book.epub",
+    "extracted_at": "2024-01-01T00:00:00Z",
+    "word_count_estimate": 68000,
+    "extraction_note": "Illustrative sample. The real idea_bank/ is kept local (see README)."
+  },
+  "ideas": [
+    {
+      "id": "example-book-author-2024__001",
+      "headline": "One idea per record, tagged by theme",
+      "principle": "Each idea is a self-contained unit: a headline, a short principle in the author's spirit, and a concrete example. Themes are a list because a single idea can legitimately belong to more than one track.",
+      "author_example": "The author illustrates this with a story about X, showing how the principle plays out in practice rather than in the abstract.",
+      "themes": ["mental_models", "leadership"],
+      "chapter": "1",
+      "section": "Foundations"
+    },
+    {
+      "id": "example-book-author-2024__002",
+      "headline": "Actionable ideas carry an extra field",
+      "principle": "Ideas on 'actionable' themes (leadership, parenting) include an actionable_insight. The sender only renders that block when the day's register is 'actionable', so conceptual days stay reflective.",
+      "author_example": "Where the author gives a specific drill or checklist, that becomes the actionable insight.",
+      "actionable_insight": "Do one small, concrete thing today that tests the idea — then note what happened.",
+      "themes": ["leadership"],
+      "chapter": "4"
+    }
+  ]
+}

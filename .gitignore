@@ -1,0 +1,19 @@
+# Personal content — the idea bank is kept local by design (see README).
+idea_bank/
+
+# Real config with private email addresses. Ship config.example.json instead.
+config.json
+
+# Auto-generated runtime state and previews
+sent_log.json
+preview.html
+
+# Scheduler / run logs
+launchd.log
+launchd.error.log
+cron.log
+
+# OS / Python cruft
+.DS_Store
+__pycache__/
+*.pyc
